@@ -13,21 +13,29 @@
     <div class="left">
 
 
-        <h2>Tareas</h2>
+        <h1>Tareas</h1>
 
 
         <form action="">
             <input type="text" id="inputIntroTarea" placeholder="Introduce una tarea">
-            <input type="number" name="number" min="0" max="3" step="1" placeholder="Seleccione Prioridad"
-                id="inpPriori">
+            <select id="selectPrioridad">
+                <option value="urgente">Urgente</option>
+                <option value="diaria">Diaria</option>
+                <option value="mensual">Mensual</option>
+
+            </select>
             <input type="submit" id="btnEnviar">
             <div>
-                <label for="texto">Debes llenar todos los campos <label>
+                <p>Debes llenar todos los campos</p>
             </div>
 
             <div>
-                <input type="text" id="" placeholder="Seleccione una prioridad">
-                <input type="text" placeholder="Tarea a buscar">
+                <select id="selectPrioridad">
+                    <option value="urgente">Urgente</option>
+                    <option value="diaria">Diaria</option>
+                    <option value="mensual">Mensual</option>
+
+                    <input type="text" id="buscarTarea" placeholder="Tarea a buscar">
 
 
 

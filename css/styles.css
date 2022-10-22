@@ -9,7 +9,7 @@ div {
     text-align: center;
 }
 
-div h2 {
+div h1 {
 
     width: 100%;
     background-color: lightcoral;
@@ -23,7 +23,7 @@ div form #inputIntroTarea {
 
 }
 
-div form #inpPriori {
+div form #selectPrioridad {
     width: 300px;
     height: 40px;
     margin: 10px;
@@ -34,5 +34,27 @@ div form #btnEnviar {
     width: 300px;
     height: 40px;
     margin: 10px;
+
+}
+
+div form #selecPrioridad {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+
+}
+
+div form #buscarTarea {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+
+}
+
+div form div p {
+    width: 100%;
+    height: 75px;
+    margin: 10px;
+    background-color: lightgrey;
 
 }
