@@ -57,6 +57,21 @@ function pintarTareas() {
         tareaFila.append(article);
 
     }
+
+
+}
+function filterPorPrioridad(pTareas) {
+    let filtrar = new Array();
+    let prioridad = '';
+
+    for (let tarea of pTareas) {
+
+        filterTarea[prioridad] = tarea;
+        prioridad++;
+    }
+    return filterTarea;
 }
 
-
+let filterPorPrioridadurgente = filterPorPrioridad(arrTareas.prioridad.urgente,);
+filterPorPrioridad('urgente')
+console.log(filterPorPrioridad)
