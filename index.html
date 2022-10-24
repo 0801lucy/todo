@@ -7,38 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica JS</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/datos.js"></script>
 </head>
 
 <body>
-    <div class="left">
+    <div class="wrapp">
+        <section id="inputSection">
 
-
-        <h2>Tareas</h2>
-
-
-        <form action="">
-            <input type="text" id="inputIntroTarea" placeholder="Introduce una tarea">
-            <input type="number" name="number" min="0" max="3" step="1" placeholder="Seleccione Prioridad"
-                id="inpPriori">
-            <input type="submit" id="btnEnviar">
-            <div>
-                <label for="texto">Debes llenar todos los campos <label>
-            </div>
-
-            <div>
-                <input type="text" id="" placeholder="Seleccione una prioridad">
-                <input type="text" placeholder="Tarea a buscar">
+            <h1>Tareas</h1>
 
 
 
+            <form id="formulario">
 
-            </div>
+                <input type="text" id="inputTarea" placeholder="Introduce una tarea">
 
 
-        </form>
+                <select id="selectPrioridad">
+                    <option value="urgente">URGENTE</option>
+                    <option value="diaraia">Diaraia</option>
+                    <option value="mensual">Mensual</option>
+                </select>
+                <input type="submit" id="btnGuardar" placeholder="Guardar">
+                <div>
+                    <p>Debes llenar todos los campos</p>
+                </div>
+
+                <div>
+
+                    <select name="" id="selectPrioriSearch">
+                        <option value="urgente">URGENTE</option>
+                        <option value="diaraia">Diaraia</option>
+                        <option value="mensual">Mensual</option>
+                    </select>
+
+
+                </div>
+
+                <input type="text" id="inputTareaBuscar" placeholder="Buscar tarea">
+            </form>
+        </section>
+        <main>
+            <section id="tareaFila"></section>
+        </main>
+
     </div>
-    </div>
 
+
+
+    <script src="./js/function.js"></script>
 </body>
 
 </html>
