@@ -60,18 +60,32 @@ function pintarTareas() {
 
 
 }
-function filterPorPrioridad(pTareas) {
+function filtrarPorPrioridad(pTareas) {
     let filtrar = new Array();
     let prioridad = '';
 
     for (let tarea of pTareas) {
 
-        filterTarea[prioridad] = tarea;
+        filtrarTareas[prioridad] = tarea;
         prioridad++;
     }
-    return filterTarea;
+    return filttarTarea;
+    console.log(filtrarTarea)
 }
 
 let filterPorPrioridadurgente = filterPorPrioridad(arrTareas.prioridad.urgente,);
 filterPorPrioridad('urgente')
+
 console.log(filterPorPrioridad)
+
+
+function filterPorTarea(pTareas) {
+    let tarea = new Array();
+    for (let tarea of pTares) {
+
+        filtrarTituloTarea[titulo] = tarea;
+        titulotarea++;
+    }
+
+    return filtrarTituloTarea
+}
