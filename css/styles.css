@@ -23,123 +23,116 @@ h1 {
     text-align: center;
 }
 
-<<<<<<< HEAD
-div h1 {
-=======
->>>>>>> featured_js
+<<<<<<< HEAD div h1 {
+    =======>>>>>>>featured_js div form #inputTarea {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        background-color: burlywood;
+    }
+
+    div form #searchBar {
+
+        cursor: pointer;
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        background-color: aqua;
 
 
-div form #inputTarea {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-    background-color: burlywood;
-}
+    }
 
-div form #searchBar {
+    div form #btnGuardar {
+        cursor: pointer;
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        background-color: lightblue;
 
-    cursor: pointer;
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-    background-color: aqua;
+    }
 
+    #tareaFila article.diaria {
+        background-color: lightgreen;
+    }
 
-}
+    #tareaFila article.mensual {
+        background-color: palevioletred;
+    }
 
-div form #btnGuardar {
-    cursor: pointer;
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-    background-color: lightblue;
+    #tareaFila article.urgente {
+        background-color: red;
+    }
 
-}
+    div form #selectPrioridad {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        background-color: aqua;
+    }
 
-#tareaFila article.diaria {
-    background-color: lightgreen;
-}
-
-#tareaFila article.mensual {
-    background-color: palevioletred;
-}
-
-#tareaFila article.urgente {
-    background-color: red;
-}
-
-div form #selectPrioridad {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-    background-color: aqua;
-}
-
-div form p {
-    width: 100%;
-    height: 40px;
-    background-color: lightgray;
-    text-align: center;
-}
+    div form p {
+        width: 100%;
+        height: 40px;
+        background-color: lightgray;
+        text-align: center;
+    }
 
 
-div form #inputTareaBuscar {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-    background-color: lightpink;
-}
+    div form #inputTareaBuscar {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        background-color: lightpink;
+    }
 
-#selectPrioriSearch {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-    background-color: lightcoral;
-<<<<<<< HEAD
-}
+    #selectPrioriSearch {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        background-color: lightcoral;
+        <<<<<<< HEAD
+    }
 
-div form #inputIntroTarea {
-    width: 300px;
-    height: 40px;
+    div form #inputIntroTarea {
+        width: 300px;
+        height: 40px;
 
-    margin: 10px;
+        margin: 10px;
 
-}
+    }
 
-div form #selectPrioridad {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
+    div form #selectPrioridad {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
 
-}
+    }
 
-div form #btnEnviar {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-=======
->>>>>>> featured_js
+    div form #btnEnviar {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
+        =======>>>>>>>featured_js
+    }
 
-}
+    div form #selecPrioridad {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
 
-div form #selecPrioridad {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
+    }
 
-}
+    div form #buscarTarea {
+        width: 300px;
+        height: 40px;
+        margin: 10px;
 
-div form #buscarTarea {
-    width: 300px;
-    height: 40px;
-    margin: 10px;
+    }
 
-}
+    div form div p {
+        width: 100%;
+        height: 75px;
+        margin: 10px;
+        background-color: lightgrey;
 
-div form div p {
-    width: 100%;
-    height: 75px;
-    margin: 10px;
-    background-color: lightgrey;
-
-}
+    }
